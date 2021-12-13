@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ref.css">
+    <title>APropos</title>
+
+</head>
+
+<body class="apropos" style="background-color: #323131;">
+    <div>
+        <img src="./img/shipping.png" alt="">
+        <a href="./menu.html" id="link" style="position: absolute; left: 576px; top: 93px;">Menu</a>
+        <a href="./contacter.html" id="link" style="position: absolute; left: 676px; top: 93px;">Contacter</a>
+        <a href="./apropos.html" id="link" style="position: absolute; left: 820px; top: 93px;">À propos</a>
+        <a href="./mainPage.html"><img src="./img/home.png" alt=""
+                style="position: absolute;left: 138px;top: 51px;"></a>
+        <img src="./img/logo.png" alt="" style="position: absolute; top: 61px;left: 86px;">
+    </div>
+    <div>
+        <img src="./img/searchBar.png" alt=""
+            style="position: absolute; width: 766px; height: 43px; left: 337px; top: 140px;">
+    </div>
+    <br> <br> <br> <br> <br>
+    <h2>Notre Équipe</h2>
+    <p>
+        Depuis 1923, Pizza Craft vous offre Ce qui ce fait de meilleurs en terme de pizzas. Nous sommes reconnu pour ne
+        pas
+        avoir peur d’innover et de repousser les limites de la pizza, pour le plaisir de vos papilles gustatives. Nos
+        talentueux cuisinier sauront vous impressionné : qu’importe l’ingrédient, ils sauront en faire un délice.
+        <br> <br>
+        Bienvenu, et Bon appétit !
+    </p>
+    <br>
+    <p>
+        <iframe width="850px" height="478px" src="https://www.youtube.com/embed/vcfNpDtVqOw"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </p>
+
+    <br>
+    <h2>À propos du site</h2>
+    <p>
+        Notre site est celui d’un restaurant de pizzas artisanales, offrant un service de l’ivraison. il possède un
+        style sobre et professionnel. Celui-ci s’inspire en particulier des deux sites concurants suivants : Geppeto
+        pizzeria et Pizza Pizza. Comme couleurs, notre site utilise majoritairement du orange pâle, du noir, du blanc
+        ainsi que du gris. Il utilise presque exclusivement la police Roboto, à l’exeption du nom de notre restaurant,
+        qui prend la police «??????» (oui elle s’appelle comme ça). Concernant le guidage, notre site est facile
+        d’utilisation grâce à un menu facile d’accès, qui permet de se déplacer rapidements entre les différentes pages.
+    </p>
+    <br>
+    <div style="text-align:center">
+        <button onclick="faireDemarrer()">Démarrer/Pause</button>
+        <button onclick="faireGrossir()">Grossir</button>
+        <button onclick="faireDiminuer()">Diminuer</button>
+        <button onclick="faireNormal()">Normal</button>
+        <br><br>
+        <video id="video1" width="850">
+            <source src="./Video/pizza.mp4" type="video/mp4">
+        </video>
+    </div>
+    <p>
+        <audio id="music1">
+            <source src="./Musique/musique.mp3" type="audio/mp3">
+        </audio>
+    </p>
+    <div>
+        <br>
+        <script>
+            var myVideo = document.getElementById("video1");
+            var myMusic = document.getElementById("music1");
+            function faireDemarrer() {
+                if (myVideo.paused)
+                    myVideo.play();
+                else
+                    myVideo.pause();
+                if (myMusic.paused)
+                    myMusic.play();
+                else
+                    myMusic.pause();
+            }
+            function faireGrossir() {
+                myVideo.width = 1000;
+            }
+            function faireDiminuer() {
+                myVideo.width = 560;
+            }
+            function faireNormal() {
+                myVideo.width = 850;
+            }
+        </script>
+        <div>
+            <img src="./img/Média.png" alt=""
+                style="position: absolute; width: 1440px; height: 510px; left: 0px; top: 2300px;">
+        </div>
+        <img src="./img/endtitle.png" alt="" style="position: absolute; left: 0px; top: 2800px;">
+        <a href="./apropo.html" style="position: absolute; width: 111px; height: 29px; left: 103px; top: 2870px;"
+            id="link">a propos</a>
+    </div>
+</body>
+
+</html>

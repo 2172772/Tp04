@@ -1,0 +1,73 @@
+    #link{
+        font-family: Roboto; 
+        font-style: normal; 
+        font-weight: normal; 
+        font-size: 25px; 
+        line-height: 29px; 
+        text-align: center; 
+        letter-spacing: 0.05em; 
+        text-transform: capitalize; 
+        color: rgba(0, 0, 0, 0.8);
+    }
+    h2 { 
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 33px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    h3 {font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    p {
+        font-family: Roboto;
+        color: white;
+        font-size: 30px;
+    }
+    .apropos p {
+        font-family: Roboto;
+        font-size: 30px;
+        line-height: 33px;
+        text-align:  center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin: 50px 230px 20px 230px;
+    }
+    .trouvezNous {
+        margin-top: 100px;
+    }
+    .trouvezNousText{
+        display: inline-block;
+        position: relative;
+        top: 55px;
+        margin-left: 100px;
+        text-align: left;
+        font-size: 30px;
+    }
+    form {
+        text-align: center;
+    }
+    form input{
+        width: 600px;
+        height: 40px;
+    }
+    form textarea{
+        width: 600px;
+        height: 200px;
+    }
+    button {
+        width: 200px;
+        height: 50px;
+    }
+    
+   
+    
